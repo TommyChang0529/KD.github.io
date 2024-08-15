@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/feature/substitute/substitute.component.scss"],
+  "sourcesContent": [".home {\r\n  padding: 30px;\r\n}\r\n\r\ntable {\r\n  th {\r\n    width: auto;\r\n  }\r\n}\r\n\r\n.index-body {\r\n  justify-content: space-between;\r\n}\r\n\r\ninput[type=\"file\"] {\r\n  display: none;\r\n}\r\n"],
+  "mappings": ";AAAA,CAAA;AACE,WAAA;;AAIA,MAAA;AACE,SAAA;;AAIJ,CAAA;AACE,mBAAA;;AAGF,KAAA,CAAA;AACE,WAAA;;",
+  "names": []
+}

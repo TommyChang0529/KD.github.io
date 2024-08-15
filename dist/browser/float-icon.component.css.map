@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/shared/float-icon/float-icon.component.scss"],
+  "sourcesContent": [".float-icon {\r\n  width: auto;\r\n  right: 0;\r\n  position: fixed;\r\n  bottom: 100px;\r\n  display: flex;\r\n  flex-direction: column;\r\n\r\n  a {\r\n    width: 50px;\r\n    height: 50px;\r\n    margin-bottom: 2px;\r\n    padding: 0 8px;\r\n    text-decoration: none;\r\n    text-align: center;\r\n    align-content: center;\r\n    font-size: 13px;\r\n    font-weight: 600;\r\n    cursor: pointer;\r\n    &:nth-child(odd) {\r\n      background-color: #feda00;\r\n      color: #012970;\r\n    }\r\n    &:nth-child(even),\r\n    &:last-child {\r\n      background-color: #3c4b64;\r\n      color: white;\r\n    }\r\n  }\r\n}\r\n"],
+  "mappings": ";AAAA,CAAA;AACE,SAAA;AACA,SAAA;AACA,YAAA;AACA,UAAA;AACA,WAAA;AACA,kBAAA;;AAEA,CARF,WAQE;AACE,SAAA;AACA,UAAA;AACA,iBAAA;AACA,WAAA,EAAA;AACA,mBAAA;AACA,cAAA;AACA,iBAAA;AACA,aAAA;AACA,eAAA;AACA,UAAA;;AACA,CAnBJ,WAmBI,CAAA;AACE,oBAAA;AACA,SAAA;;AAEF,CAvBJ,WAuBI,CAAA;AAAA,CAvBJ,WAuBI,CAAA;AAEE,oBAAA;AACA,SAAA;;",
+  "names": []
+}

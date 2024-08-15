@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/app.component.scss"],
+  "sourcesContent": [".main {\r\n  margin-top: 60px;\r\n  padding: 20px 40px;\r\n  transition: all 0.3s;\r\n  @media (min-width: 990px) {\r\n    margin-left: 250px;\r\n  }\r\n  @media (max-width: 989px) {\r\n    padding: 20px;\r\n  }\r\n\r\n  &.menu_close {\r\n    margin-left: 0px !important;\r\n  }\r\n}\r\n\r\n.menu {\r\n  display: flex;\r\n  flex-direction: column;\r\n  position: fixed;\r\n  width: 250px;\r\n  top: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  background-color: #3c4b64;\r\n  transition: all 0.3s;\r\n  &.menu_close {\r\n    left: -250px;\r\n  }\r\n}\r\n"],
+  "mappings": ";AAAA,CAAA;AACE,cAAA;AACA,WAAA,KAAA;AACA,cAAA,IAAA;;AACA,OAAA,CAAA,SAAA,EAAA;AAJF,GAAA;AAKI,iBAAA;;;AAEF,OAAA,CAAA,SAAA,EAAA;AAPF,GAAA;AAQI,aAAA;;;AAGF,CAXF,IAWE,CAAA;AACE,eAAA;;AAIJ,CAAA;AACE,WAAA;AACA,kBAAA;AACA,YAAA;AACA,SAAA;AACA,OAAA;AACA,UAAA;AACA,QAAA;AACA,oBAAA;AACA,cAAA,IAAA;;AACA,CAVF,IAUE,CAfA;AAgBE,QAAA;;",
+  "names": []
+}

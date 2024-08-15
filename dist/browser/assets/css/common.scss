@@ -1,0 +1,146 @@
+.home {
+  background-color: #f2f2f2;
+  padding: 0 30px 30px 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  word-break: break-all;
+  word-wrap: break-word;
+
+  th {
+    &:first-child {
+      width: 120px;
+      border-top-left-radius: 8px;
+      padding-left: 16px !important;
+    }
+
+    &:last-child {
+      border-top-right-radius: 8px;
+      padding-right: 16px !important;
+    }
+  }
+
+  thead {
+    th {
+      background-color: #3c4b64;
+      padding: 17px 0px;
+      color: #fff;
+      text-align: center;
+    }
+  }
+
+  td {
+    padding: 12px 10px;
+    text-align: center;
+    &:first-child {
+      padding: 12px 0 12px 16px;
+    }
+    &:last-child {
+      padding: 12px 16px 12px 0;
+    }
+  }
+
+  tbody {
+    tr {
+      &:nth-child(odd) {
+        background-color: #fff;
+      }
+
+      &:nth-child(even) {
+        background-color: #fbfbfb;
+
+        > th {
+          background: #fbfbfb;
+        }
+      }
+    }
+  }
+
+  tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+  }
+
+  tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+  }
+}
+
+.title {
+  padding: 20px 0 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.index-body {
+  padding: 20px 20px 20px 20px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+
+  .client-50 {
+    width: 50%;
+    margin: 0 0 8px 0;
+
+    @media (max-width: 1200px) {
+      width: 100%;
+    }
+
+    div {
+      margin-bottom: 8px;
+      min-height: 27px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      b {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .client-100 {
+    width: 100%;
+    padding: 0 0 8px 0;
+
+    span {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}
+
+.blackBtn {
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  padding: 5px 20px;
+}
+.whiteBtn {
+  background-color: white;
+  color: black;
+  border: 1px black solid;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+
+.search-butn {
+  border: 0;
+  padding: 0;
+  margin-left: -30px;
+  background: none;
+  font-size: 14px;
+}

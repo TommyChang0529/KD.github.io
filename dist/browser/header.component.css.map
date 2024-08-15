@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/shared/header/header.component.scss"],
+  "sourcesContent": [".header_bar {\r\n  display: flex;\r\n  align-items: center;\r\n  position: fixed;\r\n  top: 0;\r\n  left: 250px;\r\n  width: 100%;\r\n  height: 60px;\r\n  background-color: white;\r\n  box-shadow: 0 2px 20px #0129701a;\r\n  z-index: 1000;\r\n  transition: all 0.3s;\r\n}\r\n\r\n.burger_btn {\r\n  display: flex;\r\n  height: 60px;\r\n  align-items: center;\r\n  font-size: 32px;\r\n  margin: 0 20px 0 10px;\r\n  cursor: pointer;\r\n}\r\n\r\n.menu_close {\r\n  left: 0;\r\n}\r\n"],
+  "mappings": ";AAAA,CAAA;AACE,WAAA;AACA,eAAA;AACA,YAAA;AACA,OAAA;AACA,QAAA;AACA,SAAA;AACA,UAAA;AACA,oBAAA;AACA,cAAA,EAAA,IAAA,KAAA,KAAA,CAAA,EAAA,EAAA,EAAA,GAAA,EAAA;AACA,WAAA;AACA,cAAA,IAAA;;AAGF,CAAA;AACE,WAAA;AACA,UAAA;AACA,eAAA;AACA,aAAA;AACA,UAAA,EAAA,KAAA,EAAA;AACA,UAAA;;AAGF,CAAA;AACE,QAAA;;",
+  "names": []
+}
